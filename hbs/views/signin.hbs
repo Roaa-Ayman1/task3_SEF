@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> {{>header}} </h1>
+
+    <div class="container">
+
+        <div class="sign container">
+            <h1> {{title}} </h1>
+            <div class="line"></div>
+            
+            <form action="get">
+                <input type="text" name="FirstName" placeholder="First Name">
+                <input type="text" name="SecondName" placeholder="Second Name">
+                <input type="password" name="password" placeholder="Password">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <p class="dfooter"> {{>footer}} </p>
+</body>
+</html>

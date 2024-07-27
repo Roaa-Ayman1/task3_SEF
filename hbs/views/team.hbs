@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> {{>header}} </h1>
+
+    <div class="container">
+
+        <h1> {{title}} </h1>
+        <div class="line"></div>
+
+        <div class="card">
+            <img src={{img1}} alt="{{name1}}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">{{name1}}</h5>
+                <p class="card-text">{{age1}}</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src={{img2}} alt="{{name2}}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">{{name2}}</h5>
+                <p class="card-text">{{age2}}</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src={{img3}} alt="{{name3}}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">{{name3}}</h5>
+                <p class="card-text">{{age3}}</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src={{img4}} alt="{{name4}}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">{{name4}}</h5>
+                <p class="card-text">{{age4}}</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src={{img5}} alt="{{name5}}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">{{name5}}</h5>
+                <p class="card-text">{{age5}}</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src={{img6}} alt="{{name6}}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">{{name6}}</h5>
+                <p class="card-text">{{age6}}</p>
+            </div>
+        </div>
+    </div>
+    
+    <p class="dfooter"> {{>footer}} </p>
+
+</body>
+</html>
